@@ -7,24 +7,32 @@ const Footer = () => {
       <Container className="p-4">
         <Row>
           <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
-            <h5>Footer text</h5>
+            <h4>About This Project</h4>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-              atque ea quis molestias. Fugiat pariatur maxime quis culpa
-              corporis vitae repudiandae aliquam voluptatem veniam, est atque
-              cumque eum delectus sint!
+              This is actually my first project with Next Js & im developing
+              this website during learning Next Js, so I hope you enjoy it
+              anyway. I'd be appreciate if you send me your suggestions,
+              comments, criticisms & job offers ✌.
             </p>
           </div>
 
           <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
-            <h5>Footer text</h5>
+            <h4>About Me</h4>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-              atque ea quis molestias. Fugiat pariatur maxime quis culpa
-              corporis vitae repudiandae aliquam voluptatem veniam, est atque
-              cumque eum delectus sint!
+              Im' Parham Abolghasemi, Im a Front-End developer & I currently
+              learning Next Js. here on my portfolio website, I have prepared a
+              box for you that you can{" "}
+              <a
+                href="https://parham-portfolio.netlify.app/#contact"
+                target={"_blank"}
+                className="fw-bold"
+              >
+                Contact me
+              </a>
+              . I'll be happy if you send me your suggestions, comments,
+              criticisms & job offers .
             </p>
           </div>
         </Row>

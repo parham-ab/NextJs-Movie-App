@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { Container, Navbar } from "react-bootstrap";
 
 const Header = () => {
@@ -6,7 +7,9 @@ const Header = () => {
     <div>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Movie APP</Navbar.Brand>
+          <Link href={"/"}>
+            <Navbar.Brand href={"/"}>Movie APP</Navbar.Brand>
+          </Link>
         </Container>
       </Navbar>
     </div>

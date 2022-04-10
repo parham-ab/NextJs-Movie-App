@@ -18,7 +18,10 @@ const Home = () => {
       <div className="d-flex flex-column align-items-center">
         <h1>Welcome to Movie App</h1>
         <p>Produce Films feature, TV & Game.</p>
-        <a href="https://parham-portfolio.netlify.app/" target={"_blank"}>
+        <a
+          href="https://parham-portfolio.netlify.app/#contact"
+          target={"_blank"}
+        >
           <Button variant="secondary">Contact Us</Button>
         </a>
       </div>
