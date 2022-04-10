@@ -10,6 +10,14 @@
   text-decoration: none !important;
   box-sizing: border-box;
 }
+a {
+  color: #fff;
+  &:focus,
+  &:hover,
+  &:active {
+    color: #fff;
+  }
+}
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
