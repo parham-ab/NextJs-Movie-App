@@ -7,7 +7,13 @@ const Header = () => {
     <Navbar bg="dark" variant="dark">
       <Container>
         <Link href={"/"}>
-          <Navbar.Brand href={"/"}>Movie APP</Navbar.Brand>
+          <Navbar.Brand href={"/"}>Top 250</Navbar.Brand>
+        </Link>
+        <Link href={"/movies"}>
+          <Navbar.Brand href={"/movies/popular"}>Top Popular</Navbar.Brand>
+        </Link>
+        <Link href={"/movies/search"}>
+          <Navbar.Brand href={"/movies/search"}>Search</Navbar.Brand>
         </Link>
       </Container>
     </Navbar>

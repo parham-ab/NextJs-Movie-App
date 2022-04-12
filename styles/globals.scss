@@ -18,12 +18,26 @@ a {
     color: #fff;
   }
 }
+input {
+  color: #fff;
+  &:focus,
+  &:hover,
+  &:active {
+    color: #fff;
+  }
+  outline: none !important;
+  box-shadow: none !important;
+  box-shadow: none !important;
+}
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
 }
 .btn {
   box-shadow: none !important;
+}
+.btn-outline-secondary:hover {
+  background-color: #3b72ab;
 }
 body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
