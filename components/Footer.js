@@ -1,9 +1,41 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
+// icons
+import { BsGithub, BsLinkedin, BsSkype } from "react-icons/bs";
+import { SiGmail } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <footer className="bg-light text-center text-lg-start mt-5 shadow-lg">
+    <footer className="bg-light text-center text-lg-start mt-5 shadow-lg footer-container">
+      <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <div className="me-5 d-none d-lg-block">
+          <span>Follow me on social medias:</span>
+        </div>
+
+        <div>
+          <a
+            href="https://github.com/parham-ab"
+            target={"_blank"}
+            className="me-4 text-reset github"
+          >
+            <BsGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/parham-abolghasemi/"
+            target={"_blank"}
+            className="me-4 text-reset linkdin"
+          >
+            <BsLinkedin />
+          </a>
+          <a
+            href="mailto:parhamab17@gmail.com"
+            target={"_blank"}
+            className="me-4 text-reset gmail"
+          >
+            <SiGmail />
+          </a>
+        </div>
+      </section>
       <Container className="p-4">
         <Row>
           <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
