@@ -32,7 +32,7 @@ const SearchedMovie = () => {
       const response = await axios
         .get(`https://imdb-api.com/en/API/SearchAll/k_atj5j89x/${title}`)
         .catch((error) => setErrors(error));
-      setVal(response.data.results);
+      if (response.data !== undefined) setVal(response.data.results);
       setErrors(response.data.errorMessage);
       // clear input
       setTitle("");
