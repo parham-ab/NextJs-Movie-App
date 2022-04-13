@@ -30,7 +30,7 @@ const SearchedMovie = () => {
     const getData = async () => {
       setLoading(true);
       const response = await axios
-        .get(`https://imdb-api.com/en/API/SearchAll/API_KEY/${title}`)
+        .get(`https://imdb-api.com/en/API/SearchAll/k_atj5j89x/${title}`)
         .catch((error) => setErrors(error));
       setVal(response.data.results);
       setErrors(response.data.errorMessage);
