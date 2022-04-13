@@ -37,7 +37,7 @@ const Home = ({ movies }) => {
 
 export async function getStaticProps() {
   const response = await axios.get(
-    `https://imdb-api.com/en/API/Top250Movies/k_atj5j89x`
+    `https://imdb-api.com/en/API/Top250Movies/API_KEY`
   );
   const movies = response.data;
   return {
