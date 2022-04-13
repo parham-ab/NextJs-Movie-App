@@ -27,7 +27,7 @@ const Footer = () => {
               <a
                 href="https://parham-portfolio.netlify.app/#contact"
                 target={"_blank"}
-                className="fw-bold"
+                className="fw-bold text-dark"
               >
                 Contact me
               </a>

@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import { Container, Navbar } from "react-bootstrap";
+// icons
+import { BsSearch } from "react-icons/bs";
 
 const Header = () => {
   return (
@@ -13,7 +15,9 @@ const Header = () => {
           <Navbar.Brand href={"/movies/popular"}>Top Popular</Navbar.Brand>
         </Link>
         <Link href={"/movies/search"}>
-          <Navbar.Brand href={"/movies/search"}>Search</Navbar.Brand>
+          <Navbar.Brand href={"/movies/search"}>
+            <BsSearch />
+          </Navbar.Brand>
         </Link>
       </Container>
     </Navbar>

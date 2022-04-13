@@ -62,13 +62,11 @@ const SearchedMovie = () => {
         <InputGroup className="mb-3 mt-5 shadow" style={{ width: "280px" }}>
           <FormControl
             placeholder="Search..."
-            aria-label="search"
-            aria-describedby="basic-addon0"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
           />
           <Button
-            // disabled={title && !title.startsWith(" ") ? false : true}
+            disabled={title && !title.startsWith(" ") ? false : true}
             type="submit"
             variant="outline-secondary"
             id="button-addon0"
@@ -83,7 +81,7 @@ const SearchedMovie = () => {
           width={"290px"}
           height={"290px"}
           layout="intrinsic"
-          loading="lazy"
+          priority={1}
         />
         <p className="text-primary mt-2 text-center">
           Search for a movie, keyword or something else...
