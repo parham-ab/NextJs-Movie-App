@@ -13,11 +13,5 @@ const LayOut = ({ title, keywords, description, children }) => {
     </div>
   );
 };
-LayOut.defaultProps = {
-  title: "",
-  description: "",
-  keywords: "",
-  keywords: "",
-  keywords: "",
-};
+
 export default LayOut;

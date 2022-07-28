@@ -3,7 +3,7 @@ import axios from "axios";
 import { Button } from "react-bootstrap";
 // components
 import PopularMovie from "../components/PopularMovie";
-import LayOut from "../components/LayOut";
+import LayOut from "../components/common/LayOut";
 // img
 import movieMan from "../public/img/movieMan.svg";
 
@@ -24,6 +24,7 @@ const Home = ({ movies }) => {
         <a
           href="https://parham-portfolio.netlify.app/#contact"
           target={"_blank"}
+          rel="noreferrer"
         >
           <Button variant="secondary" className="mb-5">
             Contact Us

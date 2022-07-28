@@ -1,6 +1,6 @@
 import axios from "axios";
 // components
-import LayOut from "../../components/LayOut";
+import LayOut from "../../components/common/LayOut";
 import PopularMovie from "../../components/PopularMovie";
 
 const Popular = ({ popular }) => {

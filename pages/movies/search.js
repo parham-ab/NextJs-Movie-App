@@ -1,4 +1,4 @@
-import LayOut from "../../components/LayOut";
+import LayOut from "../../components/common/LayOut";
 // components
 import SearchedMovie from "../../components/SearchedMovie";
 

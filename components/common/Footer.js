@@ -16,6 +16,7 @@ const Footer = () => {
           <a
             href="https://github.com/parham-ab"
             target={"_blank"}
+            rel="noreferrer"
             className="me-4 text-reset github"
           >
             <BsGithub />
@@ -23,6 +24,7 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/parham-abolghasemi/"
             target={"_blank"}
+            rel="noreferrer"
             className="me-4 text-reset linkdin"
           >
             <BsLinkedin />
@@ -30,6 +32,7 @@ const Footer = () => {
           <a
             href="mailto:parhamab17@gmail.com"
             target={"_blank"}
+            rel="noreferrer"
             className="me-4 text-reset gmail"
           >
             <SiGmail />
@@ -40,30 +43,29 @@ const Footer = () => {
         <Row>
           <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
             <h4>About This Project</h4>
-
             <p>
               This is actually my first project with Next Js & im developing
               this website during learning Next Js, so I hope you enjoy it
-              anyway. I'd be appreciate if you send me your suggestions,
+              anyway. Id be appreciate if you send me your suggestions,
               comments, criticisms & job offers ✌.
             </p>
           </div>
 
           <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
             <h4>About Me</h4>
-
             <p>
-              Im' Parham Abolghasemi, Im a Front-End developer & I currently
+              Im Parham Abolghasemi, Im a Front-End developer & I currently
               learning Next Js. here on my portfolio website, I have prepared a
               box for you that you can{" "}
               <a
                 href="https://parham-portfolio.netlify.app/#contact"
                 target={"_blank"}
+                rel="noreferrer"
                 className="fw-bold text-dark"
               >
                 Contact me
               </a>
-              . I'll be happy if you send me your suggestions, comments,
+              . I ll be happy if you send me your suggestions, comments,
               criticisms & job offers .
             </p>
           </div>
@@ -72,13 +74,14 @@ const Footer = () => {
 
       <div
         className="text-center p-3"
-        style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
+        style={{ backgroundColor: "rgb(161 191 225 / 20%)" }}
       >
         Made width <span className="text-danger">❤ </span> by{" "}
         <a
           className="text-dark fw-bold"
-          href="https://parham-portfolio.netlify.app/"
+          href="https://parham-ab.netlify.app/#contact"
           target={"_blank"}
+          rel="noreferrer"
         >
           Parham Abolghasemi
         </a>

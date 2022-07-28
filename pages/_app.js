@@ -1,9 +1,10 @@
+// scroll to top
+import ScrollToTop from "react-scroll-to-top";
 // styles
 import "../styles/globals.scss";
-import ScrollToTop from "react-scroll-to-top";
 // components
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Footer from "../components/common/Footer";
+import Header from "../components/common/Header";
 
 function MyApp({ Component, pageProps }) {
   return (
