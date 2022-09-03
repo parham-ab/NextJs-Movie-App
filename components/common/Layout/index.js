@@ -1,6 +1,6 @@
 // components
-import Footer from "../../components/common/Footer";
-import Header from "../../components/common/Header";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const LayOut = ({ children }) => {
   return (

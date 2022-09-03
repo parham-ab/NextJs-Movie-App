@@ -9,11 +9,7 @@ import movieMan from "../public/img/movieMan.svg";
 
 const Home = ({ movies }) => {
   return (
-    <LayOut
-      title={"Movie App"}
-      keywords={"movie"}
-      description={"made with ❤ by Parham Abolghasemi"}
-    >
+    <>
       <div style={{ width: "300px" }} className="mx-auto mt-5 mb-5 img-fluid">
         <Image src={movieMan} alt="MovieMan" loading="lazy" />
       </div>
@@ -32,7 +28,7 @@ const Home = ({ movies }) => {
         </a>
       </div>
       <PopularMovie movies={movies} />
-    </LayOut>
+    </>
   );
 };
 

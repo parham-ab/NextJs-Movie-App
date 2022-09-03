@@ -1,17 +1,12 @@
 import axios from "axios";
 // components
-import LayOut from "../../components/common/LayOut";
 import PopularMovie from "../../components/PopularMovie";
 
 const Popular = ({ popular }) => {
   return (
-    <LayOut
-      title={"Movie App | Popular"}
-      keywords={"movie"}
-      description={"made with ❤ by Parham Abolghasemi"}
-    >
+    <>
       <PopularMovie movies={popular} />
-    </LayOut>
+    </>
   );
 };
 
