@@ -24,7 +24,7 @@ const Home = ({ movies }) => {
         <h1>Welcome to Movie App</h1>
         <p>Produce Films feature, TV & Game.</p>
         <a
-          href="https://parham-portfolio.netlify.app/#contact"
+          href="https://parham-ab.netlify.app/#contact"
           target={"_blank"}
           rel="noreferrer"
         >
