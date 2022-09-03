@@ -3,13 +3,19 @@ import axios from "axios";
 import { Button } from "react-bootstrap";
 // components
 import PopularMovie from "../components/PopularMovie";
-import LayOut from "../components/common/LayOut";
+// hooks
+import UseHead from "../components/common/hooks/UseHead";
 // img
 import movieMan from "../public/img/movieMan.svg";
 
 const Home = ({ movies }) => {
   return (
     <>
+      <UseHead
+        title={"Top 250 - Movies"}
+        description={"top 250 popular movies"}
+        keywords={"imdb"}
+      />
       <div style={{ width: "300px" }} className="mx-auto mt-5 mb-5 img-fluid">
         <Image src={movieMan} alt="MovieMan" loading="lazy" />
       </div>

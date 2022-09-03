@@ -1,10 +1,17 @@
 import axios from "axios";
 // components
 import PopularMovie from "../../components/PopularMovie";
+// hooks
+import UseHead from "../../components/common/hooks/UseHead";
 
 const Popular = ({ popular }) => {
   return (
     <>
+      <UseHead
+        title={"Top Popular - Movies"}
+        description={"top popular world movies"}
+        keywords={"popular"}
+      />
       <PopularMovie movies={popular} />
     </>
   );
