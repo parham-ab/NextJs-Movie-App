@@ -1,6 +1,3 @@
-import Link from "next/link";
-import React from "react";
-
 import { Card, Badge } from "react-bootstrap";
 
 const PopularMovie = ({ movies }) => {
