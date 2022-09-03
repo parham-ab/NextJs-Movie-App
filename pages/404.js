@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "react-bootstrap";
 // hooks
-import UseHead from "../components/common/hooks/UseHead";
+import UseHead from "@/components/common/hooks/UseHead";
 // img
 import error from "../public/img/404.svg";
 

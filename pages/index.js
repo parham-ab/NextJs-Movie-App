@@ -2,9 +2,9 @@ import Image from "next/image";
 import axios from "axios";
 import { Button } from "react-bootstrap";
 // components
-import PopularMovie from "../components/PopularMovie";
+import PopularMovie from "@/components/PopularMovie";
 // hooks
-import UseHead from "../components/common/hooks/UseHead";
+import UseHead from "@/components/common/hooks/UseHead";
 // img
 import movieMan from "../public/img/movieMan.svg";
 

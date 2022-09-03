@@ -1,7 +1,7 @@
 // hooks
-import UseHead from "../../components/common/hooks/UseHead";
+import UseHead from "@/components/common/hooks/UseHead";
 // components
-import SearchedMovie from "../../components/SearchedMovie";
+import SearchedMovie from "@/components/SearchedMovie";
 
 const Search = () => {
   return (

@@ -1,8 +1,8 @@
 import axios from "axios";
 // components
-import PopularMovie from "../../components/PopularMovie";
+import PopularMovie from "@/components/PopularMovie";
 // hooks
-import UseHead from "../../components/common/hooks/UseHead";
+import UseHead from "@/components/common/hooks/UseHead";
 
 const Popular = ({ popular }) => {
   return (

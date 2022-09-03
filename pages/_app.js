@@ -1,9 +1,9 @@
 // scroll to top
 import ScrollToTop from "react-scroll-to-top";
 // styles
-import "../styles/index.scss";
+import "@/styles/index.scss";
 // layout
-import LayOut from "../components/common/Layout";
+import LayOut from "@/components/common/Layout";
 
 function MyApp({ Component, pageProps }) {
   return (
