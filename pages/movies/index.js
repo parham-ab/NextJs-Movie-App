@@ -1,8 +1,8 @@
-import axios from "axios";
 // components
 import PopularMovie from "@/components/PopularMovie";
 // hooks
 import UseHead from "@/components/common/hooks/UseHead";
+import { http } from "services/httpService";
 
 const Popular = ({ popular }) => {
   return (
@@ -18,9 +18,7 @@ const Popular = ({ popular }) => {
 };
 
 export async function getStaticProps() {
-  const response = await axios.get(
-    `https://imdb-api.com/en/API/MostPopularMovies/k_atj5j89x`
-  );
+  const response = await http.get(`/k_atj5j89x`);
   const popular = response.data;
   return {
     props: { popular },

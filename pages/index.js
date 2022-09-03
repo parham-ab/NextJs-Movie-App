@@ -1,5 +1,5 @@
+import { http } from "services/httpService";
 import Image from "next/image";
-import axios from "axios";
 import { Button } from "react-bootstrap";
 // components
 import PopularMovie from "@/components/PopularMovie";
@@ -39,9 +39,7 @@ const Home = ({ movies }) => {
 };
 
 export async function getStaticProps() {
-  const response = await axios.get(
-    `https://imdb-api.com/en/API/Top250Movies/k_atj5j89x`
-  );
+  const response = await http.get(`/k_atj5j89x`);
   const movies = response.data;
   return {
     props: { movies },
